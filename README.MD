@@ -21,7 +21,7 @@ Enables scalable communication across multiple server instances using Redis as a
 
 - Customer support chat
 - Group chat or private messaging
-- Real-time collaboration applications (document editing, whiteboard, etc.)
+- Real-time collaboration applications
 - Notifications and event broadcasting
 - Live streaming chat
 - Gaming chat systems
@@ -634,6 +634,8 @@ const chatServer = await createChatServer(server, {
 
 MIT License - see [LICENSE](LICENSE) file for details.
 
+Copyright (c) 2024 Abdul Haris Dwi Utomo
+
 ## 🤝 Contributing
 
 1. Fork repository
@@ -644,7 +646,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 📞 Support
 
-- 📧 Email: your-email@example.com
+- 📧 Email: harizu.sekai@gmail.com
 - 🐛 Issues: [GitHub Issues](https://github.com/harizu/Realtime-Live-Chat/issues)
 - 📖 Documentation: [GitHub Wiki](https://github.com/harizu/Realtime-Live-Chat/wiki)
 
