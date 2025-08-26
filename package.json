@@ -1,0 +1,41 @@
+{
+    "name": "realtime-live-chat",
+    "version": "1.0.0",
+    "description": "Live chat server using Node.js, Socket.IO and Redis.",
+    "main": "index.js",
+    "types": "./index.d.ts",
+    "files": ["index.js", "README.md", "LICENSE", "examples/"],
+    "keywords": ["socket.io", "redis", "chat", "realtime", "messaging", "websocket"],
+    "author": "Abdul Haris Dwi Utomo <harizu.sekai@gmail.com>",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/harizu/Realtime-Live-Chat.git"
+    },
+    "bugs": {
+      "url": "https://github.com/harizu/Realtime-Live-Chat/issues"
+    },
+    "homepage": "https://github.com/harizu/Realtime-Live-Chat#readme",
+    "engines": { "node": ">=18" },
+    "scripts": {
+      "example": "node examples/server.js",
+      "example:auth": "node examples/server-with-auth.js",
+      "test": "node examples/test-client.js",
+      "test:auth": "node examples/test-client-auth.js",
+      "dev": "nodemon examples/server.js",
+      "dev:auth": "nodemon examples/server-with-auth.js",
+      "prepublishOnly": "node -e \"console.log('Building… (nothing to build)')\""
+    },
+    "dependencies": {
+      "redis": "^4.0.0",
+      "socket.io": "^4.0.0",
+      "@socket.io/redis-adapter": "^8.0.0",
+      "express": "^4.18.0",
+      "dotenv": "^16.0.0",
+      "socket.io-client": "^4.7.5"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.0"
+    }
+  }
+  
