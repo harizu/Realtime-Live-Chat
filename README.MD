@@ -1,5 +1,7 @@
 # Realtime Live Chat
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abdul%20Haris%20Dwi%20Utomo-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/abdulharisdwiutomo//)
+
 A lightweight Node.js package for building **real-time chat systems** powered by [Socket.IO](https://socket.io/) and [Redis](https://redis.io/).  
 Enables scalable communication across multiple server instances using Redis as a pub/sub adapter.
 
